@@ -1,6 +1,9 @@
 <template>
   <div class="resume">
-    <h1>This will be the resume page</h1>
-    <p>hahahahahaha</p>
+    <h1>This is an about page</h1>
+
+     <p> this will go here </p>
   </div>
+
+
 </template>
