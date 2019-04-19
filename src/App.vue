@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/Resume">Resume</router-link> |
-      <router-link to="/Projects">Projects</router-link> 
+    <!-- <div id="nav"> -->
+      <!-- <router-link to="/">Home</router-link>  -->
+      <!-- <router-link to="/Resume">Resume</router-link> |
+      <router-link to="/Projects">Projects</router-link>  -->
       <!-- <router-link to="/about">About</router-link> -->
-    </div>
+    <!-- </div> -->
     <router-view/>
   </div>
 </template>
 
 <style>
 
+#sidebar { background-color: red;
+
+}
 body {
   background-color: white;
 }
