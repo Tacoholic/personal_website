@@ -12,9 +12,8 @@
 
 <style>
 
-
 body {
-  background-color: brown;
+  background-color: white;
 }
 
 #p {
