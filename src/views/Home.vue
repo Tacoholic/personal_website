@@ -1,20 +1,19 @@
 <template>
-
-
   <body>
-    <title>W3.CSS</title>
+
+    <title>Christian Solis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <!-- Sidebar -->
-  <div class="w3-sidebar w3-white w3-bar-block" style="width:30%">
-    <div class="w3-bar-item"><h1>DEVELOPER.</h1></div>
-    <div class="w3-bar-item"><h1>SON.</h1></div>
-    <div class="w3-bar-item"><h1>FRIEND</h1></div>
+  <div class="w3-sidebar w3-yellow w3-bar-block" style="width:30%">
+    <div class="w3-bar-item"><h1>CHICAGOAN.</h1></div>
+    <div class="w3-bar-item"><h1>DEVELOPER</h1></div>
     <div class="w3-bar-item"><h1>& TACOHOLIC</h1></div>
-    <p>I am a bootcamp graduate from <a href="https://https://anyonecanlearntocode.com/">Actualize</a>, currently pursuing opportunities in Front End.</p>
-    <p>Former producer at <a href="https://www.espn.com"></a>@ESPN in Bristol, CT.</p> 
-    <p>Follow my works below.</p> 
+    <p>I am a graduate from <a href="https://www.https://anyonecanlearntocode.com/" class="link">Actualize.</a></p>
+    
+    <p>Former producer at <a href="https://www.espn.com" class="link">ESPN.</a></p>
+    <p>Follow me on my new journey in the tech world.</p> 
   </div>
 
   <!-- Page Content -->
