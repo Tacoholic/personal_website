@@ -10,32 +10,32 @@
   <!-- Sidebar -->
 
 
+ <div id="sidebar-wrapper">
  
-  <div>
     <div class="about">
       <h1>CHICAGOAN.</h1>
       <h1>FRONT END DEVELOPER.</h1>
       <h1>SPORTS FANATIC</h1>
       <h1>& TACOHOLIC.</h1>
     </div>
+
+
+    <div class="solis">
+      <p>Former producer at <a href="https://www.espn.com" class="link">ESPN.</a></p>
+      <p> <a href="https://www.https://anyonecanlearntocode.com/" class="link">Actualize </a>Coding Bootcamp graduate.</p>
+      <p>Follow me on my new journey in the tech world.</p> 
+    </div>
+
+
+    <div class="icons">
+      <span><a href="https://github.com/Tacoholic"><i class="fa fa-github" style="font-size:45px;"></i></a></span>
+      <span><a href="https://medium.com/@christiansolis_53189"><i class="fa fa-medium" style="font-size:45px;"></i></a></span>
+    </div>
+
+    <div>
+      <a class="btn btn-primary" href="mailto:@solischristian@gmail.com" role="button">Say hello!</a>
+    </div>
   </div>
-
-  <div class="solis">
-    <p>Former producer at <a href="https://www.espn.com" class="link">ESPN.</a></p>
-    <p> <a href="https://www.https://anyonecanlearntocode.com/" class="link">Actualize </a>Coding Bootcamp graduate.</p>
-    <p>Follow me on my new journey in the tech world.</p> 
-  </div>
-
-
-  <div class="icons">
-    <span><a href="https://github.com/Tacoholic"><i class="fa fa-github" style="font-size:45px;"></i></a></span>
-    <span><a href="https://medium.com/@christiansolis_53189"><i class="fa fa-medium" style="font-size:45px;"></i></a></span>
-  </div>
-
-  <div>
-    <a class="btn btn-primary" href="mailto:@solischristian@gmail.com" role="button">Say hello!</a>
-  </div>
-
       
   </body>
 
@@ -50,13 +50,13 @@
 <style>
 .about{
   margin-top: 120px;
-  margin-left: 110px;
+  margin-left: 75px;
   font-family: 'Bitter', serif;
 }
 
 .solis{
   margin-top: 25px;
-  margin-left: 115px;
+  margin-left: 80px;
   font-family: 'Montserrat', sans-serif;
 }
  
@@ -67,7 +67,7 @@
  }
 
  .fa-medium {
-margin-top: 30px;
+  margin-top: 30px;
   color:red;
   margin-left: 160px;
  }
@@ -77,5 +77,16 @@ margin-top: 30px;
   margin-left: 255px;
   }
 
+  #sidebar-wrapper {
+    background-color: yellow;
+    margin-left: -250px;
+    left: 250px;
+    width: 600px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+  }
 
 </style>
