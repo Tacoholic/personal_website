@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bitter|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
 
@@ -19,7 +20,7 @@
 
 
     <div class="solis">
-      <p>Former producer at <a href="https://www.espn.com" class="link">ESPN.</a></p>
+      <p>Former producer at <a href="https://vimeo.com/solisc" class="link">ESPN.</a></p>
       <p> <a href="https://www.https://anyonecanlearntocode.com/" class="link">Actualize </a>Coding Bootcamp graduate.</p>
       <p>Follow me on my new journey in the tech world.</p> 
     </div>
@@ -35,26 +36,17 @@
     </div>
   </div>
 
-  <div class="article">
-      <h1>London</h1>
-      <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-      <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+<div class="body"> 
+  <div class="Me">
   </div>
-  <div class="article">
-      <h1>London</h1>
-      <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-      <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+
+  <div class="Tacoholic">
   </div>
-  <div class="article">
-      <h1>London</h1>
-      <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-      <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+
+  <div class="Actualize">
   </div>
-  <div class="article">
-      <h1>London</h1>
-      <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-      <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-  </div>
+</div>
+
   </body>
 
 </template>
@@ -67,10 +59,14 @@
 </script>
 
 <style>
+h1 {
+  font-size: 60px;
+}
+
 .about{
   margin-top: 120px;
   margin-left: 75px;
-  font-family: 'Bitter', serif;
+  font-family: 'Just Another Hand', cursive;
 }
 
 .solis{
@@ -97,7 +93,7 @@
   }
 
   #sidebar-wrapper {
-    background-color: yellow;
+    background-color: white;
     margin-left: -250px;
     left: 250px;
     width: 550px;
@@ -109,12 +105,32 @@
   }
 
 
-  .article {
+  .Me {
     float: right;
     padding: 100px;
     width: 70%;
-    background-color: #f1f1f1;
+    background-color: #f4b93d;
     margin-left: 100px;
-    height: 300px; /* only for demonstration, should be removed */
+    height: 700px; /* only for demonstration, should be removed */
   }
+
+  .Tacoholic {
+    float: right;
+    padding: 100px;
+    width: 70%;
+    background-color: #005ba8;
+    margin-left: 100px;
+    height: 700px; /* only for demonstration, should be removed */
+  }
+
+  .Actualize {
+    float: right;
+    padding: 100px;
+    width: 70%;
+    background-color: #b4ddbf;
+    margin-left: 100px;
+    height: 700px; /* only for demonstration, should be removed */
+  }
+
+ 
 </style>
