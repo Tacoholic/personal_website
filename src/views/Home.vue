@@ -14,7 +14,7 @@
     <div class="about">
       <h1>CHICAGOAN.</h1>
       <h1>FRONT END DEVELOPER.</h1>
-      <h1>SPORTS FANATIC</h1>
+      <h1>SPORTS AFICIONADO</h1>
       <h1>& TACOHOLIC.</h1>
     </div>
 
@@ -27,8 +27,9 @@
 
 
     <div class="icons">
-      <span><a href="https://github.com/Tacoholic"><i class="fa fa-github" style="font-size:45px;"></i></a></span>
-      <span><a href="https://medium.com/@christiansolis_53189"><i class="fa fa-medium" style="font-size:45px;"></i></a></span>
+      <span><a href="https://www.linkedin.com/in/christian-solis1/"><i class="fa fa-linkedin" style="font-size:30px;"></i></a></span>
+      <span><a href="https://github.com/Tacoholic"><i class="fa fa-github" style="font-size:30px;"></i></a></span>
+      <span><a href="https://medium.com/@christiansolis_53189"><i class="fa fa-medium" style="font-size:30px;"></i></a></span>
     </div>
 
     <div>
@@ -75,21 +76,28 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
  
- .fa-github {
-  margin-top: 30px;
+.fa-linkedin{
+  margin-top: 15px;
   color:red;
-  margin-left: 145px;
+  margin-left: 80px;
+
+}
+
+ .fa-github {
+  margin-top: 15px;
+  color:red;
+  margin-left: 50px;
  }
 
  .fa-medium {
-  margin-top: 30px;
+  margin-top: 15px;
   color:red;
-  margin-left: 160px;
+  margin-left: 45px;
  }
 
  .btn {
   margin-top: 50px;
-  margin-left: 210px;
+  margin-left: 75px;
   }
 
   #sidebar-wrapper {
