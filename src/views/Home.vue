@@ -8,8 +8,6 @@
  
 
   <!-- Sidebar -->
-
-
  <div id="sidebar-wrapper">
  
     <div class="about">
@@ -33,13 +31,34 @@
     </div>
 
     <div>
-      <a class="btn btn-primary" href="mailto:@solischristian@gmail.com" role="button">Say hello!</a>
+      <a class="btn btn-primary btn-lg" href="mailto:@solischristian@gmail.com" role="button">Say hello!</a>
     </div>
   </div>
-      
+
+  <div class="article">
+      <h1>London</h1>
+      <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+      <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </div>
+  <div class="article">
+      <h1>London</h1>
+      <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+      <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </div>
+  <div class="article">
+      <h1>London</h1>
+      <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+      <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </div>
+  <div class="article">
+      <h1>London</h1>
+      <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+      <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </div>
   </body>
 
 </template>
+
 
 
 <script>   
@@ -63,7 +82,7 @@
  .fa-github {
   margin-top: 30px;
   color:red;
-  margin-left: 180px;
+  margin-left: 145px;
  }
 
  .fa-medium {
@@ -74,14 +93,14 @@
 
  .btn {
   margin-top: 50px;
-  margin-left: 255px;
+  margin-left: 210px;
   }
 
   #sidebar-wrapper {
     background-color: yellow;
     margin-left: -250px;
     left: 250px;
-    width: 600px;
+    width: 550px;
     position: fixed;
     height: 100%;
     overflow-y: auto;
@@ -89,4 +108,13 @@
     transition: all 0.4s ease 0s;
   }
 
+
+  .article {
+    float: right;
+    padding: 100px;
+    width: 70%;
+    background-color: #f1f1f1;
+    margin-left: 100px;
+    height: 300px; /* only for demonstration, should be removed */
+  }
 </style>
