@@ -133,7 +133,7 @@ h1 {
 
   .Actualize {
     float: right;
-    padding: 100px;
+    /*padding: 100px;*/
     width: 70%;
     background-color: #b4ddbf;
     margin-left: 100px;
