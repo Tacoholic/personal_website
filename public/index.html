@@ -34,11 +34,17 @@
               <span><a href="https://www.linkedin.com/in/christian-solis1/"><i class="fa fa-linkedin" style="font-size:30px;"></i></a></span>
               <span><a href="https://github.com/Tacoholic"><i class="fa fa-github" style="font-size:30px;"></i></a></span>
               <span><a href="https://medium.com/@christiansolis_53189"><i class="fa fa-medium" style="font-size:30px;"></i></a></span>
+              <span><a href="https://www.linkedin.com/in/christian-solis1/"><i class="fa fa-laptop" style="font-size:35px;"></i></a></span>
           </div>
 
-          <div>
-              <a class="btn btn-primary btn-lg" href="mailto:@solischristian@gmail.com" role="button">Say hello!</a>
+
+          <div class="buttonholder">
+                  <a class="btn btn-primary btn-lg" href="mailto:@solischristian@gmail.com" role="button">Say hello!</a>
+              </div>
           </div>
+         <!--  <div>
+              <a class="btn btn-primary btn-lg" href="mailto:@solischristian@gmail.com" role="button">Say hello!</a>
+          </div> -->
 
      <!--  </aside> -->
     </div>
@@ -52,7 +58,9 @@
     <!-- built files will be auto injected -->
   </body>
   <style type="text/css">
-
+    body {
+      background-color: #e8e8e8;
+    }
 
 
     @media(max-width: 767px)
@@ -76,8 +84,8 @@
 
 
     h1{
-
-      font-size: 70px;
+      text-align:center;
+      font-size: 90px;
       margin-left: 75px;
       font-weight: bold;
       margin-bottom: 10px;
@@ -95,7 +103,8 @@
     }
 
     .about{
-      display: flex;
+      margin-top: 15px;
+      justify-content: center;
       width: auto;
       font-family: 'Just Another Hand', cursive;
       font-size: 60px;
@@ -108,9 +117,14 @@
       margin-top: 30px;   
     }
 
+    .icons{
+      text-align: center;
+
+    }
+
     .solis{
       margin-top: -50px;
-      display: block;
+      
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       flex-direction: column;
@@ -122,6 +136,8 @@
     }
 
     p {
+      font-size: 20px;
+      text-align:center;
       margin-bottom: 10px;
       margin-block-start: 1em;
       margin-block-end: 1em;
@@ -151,6 +167,13 @@
 
     }
 
+  .fa-laptop{
+    margin-top: 20px;
+    color: red;
+    margin-left: 40px;
+
+  }
+
   .fa-linkedin{
     margin-top: 15px;
     color:red;
@@ -165,12 +188,15 @@
    }
 
    .fa-medium {
+    margin-left: auto;
+     margin-right: auto;
     margin-top: 15px;
     color:red;
     margin-left: 45px;
    }
 
-    .btn {
+    .buttonholder {
+    text-align: center;
      font-family: 'Montserrat', sans-serif;
      font-size: 16px;
      padding: 15px 65px;
