@@ -1,31 +1,38 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div class="sidebar-wrapper">
+    <!-- <aside class="aside aside-1"> -->
+        <div class="about clearfix">
+          <h1>CHICAGOAN.
+          <br>
+          FRONT END DEVELOPER.
+          <br>
+          SPORTS AFICIONADO
+          <br>
+          & TACOHOLIC.</h1> 
+        </div>
+
+        <div class="solis">
+            <p>Former producer at <a href="https://vimeo.com/solisc" class="link">ESPN.</a></p>
+            <p> <a href="https://www.https://anyonecanlearntocode.com/" class="link">Actualize </a>Coding Bootcamp graduate.</p>
+            <p>Follow me on my new journey in the tech world.</p> 
+        </div>
+        <div class="icons">
+            <span><a href="https://www.linkedin.com/in/christian-solis1/"><i class="fa fa-linkedin" style="font-size:30px;"></i></a></span>
+            <span><a href="https://github.com/Tacoholic"><i class="fa fa-github" style="font-size:30px;"></i></a></span>
+            <span><a href="https://medium.com/@christiansolis_53189"><i class="fa fa-medium" style="font-size:30px;"></i></a></span>
+            <span><a href="/CurrentProjects"><i class="fa fa-laptop" style="font-size:35px;"></i></a></span>
+        </div>
+
+
+        <div class="buttonholder">
+                <a class="btn btn-primary btn-lg" href="mailto:@solischristian@gmail.com" role="button">Say hello!</a>
+        </div>
+        </div>
+       <!--  <div>
+            <a class="btn btn-primary btn-lg" href="mailto:@solischristian@gmail.com" role="button">Say hello!</a>
+        </div> -->
+
+   <!--  </aside> -->
   </div>
 </template>
 
@@ -39,19 +46,221 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
+  <style type="text/css">
+    body {
+      background-color: #e8e8e8;
+    }
+
+
+    @media(max-width: 767px)
+      .content-wrapper {
+        width: 100%;
+        margin-left: 0%;
+      }
+    @media(max-width: 991px)
+        .content-wrapper {
+        float: none;
+        clear: none;
+        }
+
+    .content-wrapper {
+      position: static;
+      overflow: visible;
+      max-width: 1200px;
+
+
+    }
+
+
+    h1{
+      text-align:center;
+      font-size: 90px;
+      margin-left: 75px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin: 0.67em; 
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+
+
+    }
+    @media (max-width: max-width: 991px)
+    .about{
+      margin-top:75px;
+    }
+
+    .about{
+      margin-top: 15px;
+      justify-content: center;
+      width: auto;
+      font-family: 'Just Another Hand', cursive;
+      font-size: 60px;
+      line-height: 42px;
+    }
+
+    @media (max-width: 991px)
+    .solis {
+      width: 100%;
+      margin-top: 30px;   
+    }
+
+    .icons{
+      text-align: center;
+
+    }
+
+    .solis{
+      margin-top: -50px;
+      
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-align: start;
+      align-items: flex-start;
+      font-size: 16px;
+      line-height: 26px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+      font-size: 20px;
+      text-align:center;
+      margin-bottom: 10px;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    
+    
+    @media (max-width: 991px;)
+    .fa-linkedin {
+    }
+
+    @media (max-width: 991px;)
+    .fa-github{
+
+    }
+
+    @media (max-width: 991px;)
+    .fa-medium{
+
+    }
+
+  .fa-laptop{
+    margin-top: 20px;
+    color: red;
+    margin-left: 40px;
+
+  }
+
+  .fa-linkedin{
+    margin-top: 15px;
+    color:red;
+    margin-left: 3px;
+
+  }
+
+   .fa-github {
+    margin-top: 15px;
+    color:red;
+    margin-left: 50px;
+   }
+
+   .fa-medium {
+    margin-left: auto;
+     margin-right: auto;
+    margin-top: 15px;
+    color:red;
+    margin-left: 45px;
+   }
+
+    .buttonholder {
+    text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     padding: 15px 65px;
+     margin-top: 45px;
+     margin-left: 2px;
+     border-radius: 100px;
+     font-size: 16px;
+     margin-bottom: 50px;
+     }
+    
+    @media (max-width: 767px)
+      .sidebar-wrapper {
+      position: static;
+      width: 100%;
+      padding-left:65px;
+    }
+
+    @media (max-width: 991px)
+      .sidebar-wrapper{
+        height: 750px;
+        padding-right: 55px;
+    }
+
+    .sidebar-wrapper{
+      left: 0px;
+      top: 0px;
+      right: 552px;
+      bottom: 0px;
+      z-index: 0;
+      padding: 75px 85px 50px;
+      /*background-color: #fafafa;*/
+
+
+    }
+
+
+    .main {
+    width: 100%;
+    height: auto;
+    padding: 65px;
+    background: #f4b93d;
+
+    }
+
+    @media (max-width: 767px)
+      .aside-1 {
+      position: static;
+      width: 85%;
+    }
+
+    .aside-1{
+      left: 85px;
+      right: 0px;
+      bottom: 15%;
+    }
+
+    div {
+        display: block;
+
+
+    }
+
+    @media all and (min-width: 600px) {
+      .aside { flex: 1 0 0; }
+    }
+
+    @media all and (min-width: 800px) {
+      .main    { flex: 3 0px; }
+      .aside-1 { order: 1; } 
+      .main    { order: 2; }
+    }
+
+    body {
+      padding: 2em; 
+    }
+
+  </style>
+</html>
+
+
