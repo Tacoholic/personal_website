@@ -4,7 +4,7 @@
         <div class="about clearfix">
           <h1>CHICAGOAN.
           <br>
-          FRONT END DEVELOPER.
+          QA ENGINE.
           <br>
           SPORTS AFICIONADO
           <br>
@@ -50,8 +50,11 @@ export default {
     body {
       background-color: #e8e8e8;
     }
-
-
+/*
+h1{
+  color: red;
+}
+*/
     @media(max-width: 767px)
       .content-wrapper {
         width: 100%;
@@ -92,7 +95,7 @@ export default {
     }
 
     .about{
-      margin-top: 15px;
+      margin-top: -100px;
       justify-content: center;
       width: auto;
       font-family: 'Just Another Hand', cursive;
