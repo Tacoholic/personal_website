@@ -6,7 +6,7 @@
       <header>
         <h3>Tacoholic</h3>
       </header>
-      <a class="image fit"><img src="/taquito.png"></a>
+      <a class="image fit"><img src="/Taqu.png"></a>
       <p>This app detects the nearest taco joint to the Actualize Campus.</p>
       <p>The Backend of this application uses Ruby on Rails while the Frontend uses Vue.js. I also installed the Geocoder gem and used the Google Places and Google Details API's.</p>
       <a class="btn btn-primary btn-lg" href="https://github.com/Tacoholic/tacoholic" role="button">Github Link</a>
