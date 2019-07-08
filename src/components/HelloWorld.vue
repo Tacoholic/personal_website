@@ -4,7 +4,7 @@
         <div class="about clearfix">
           <h1>CHICAGOAN.
           <br>
-          QA ENGINE.
+          QA ENGINEER.
           <br>
           SPORTS AFICIONADO
           <br>
@@ -14,13 +14,16 @@
         <div class="solis">
             <p>Former producer at <a href="https://vimeo.com/solisc" class="link">ESPN.</a></p>
             <p> <a href="https://www.https://anyonecanlearntocode.com/" class="link">Actualize </a>Coding Bootcamp graduate.</p>
-            <p>Follow me on my new journey in the tech world.</p> 
+            <p>Follow <a href="https://medium.com/@christiansolis_53189" class="link">me</a> on my new journey in the tech world</p>
+           
         </div>
         <div class="icons">
-            <span><a href="https://www.linkedin.com/in/christian-solis1/"><i class="fa fa-linkedin" style="font-size:30px;"></i></a></span>
+            <span><a href="https://www.linkedin.com/in/christian-solis1/"><i class="fa fa-linkedin" target="_blank" style="font-size:30px;"></i></a></span>
             <span><a href="https://github.com/Tacoholic"><i class="fa fa-github" style="font-size:30px;"></i></a></span>
-            <span><a href="https://medium.com/@christiansolis_53189"><i class="fa fa-medium" style="font-size:30px;"></i></a></span>
-            <span><a href="/CurrentProjects"><i class="fa fa-laptop" style="font-size:35px;"></i></a></span>
+            <span><a href="https://docs.google.com/document/d/1ca4Qb70X2UvE_oulJhprUuvvdU9u4-eu9IMKx-GC5B4//export?format=pdf"><i class="fa fa-file-o" target="_blank" style="font-size:29px;"></i></a></span>
+            <span><a href="/CurrentProjects"><i class="fa fa-laptop" style="font-size:30px;"></i></a></span>
+
+            
         </div>
 
 
@@ -43,6 +46,7 @@ export default {
     msg: String
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -149,13 +153,17 @@ h1{
 
     @media (max-width: 991px;)
     .fa-github{
-
     }
 
     @media (max-width: 991px;)
-    .fa-medium{
-
+    .fa-file-o{
     }
+
+    @media (max-width: 991px;)
+    .fa-file-text-o{
+    }
+
+
 
   .fa-laptop{
     margin-top: 20px;
@@ -177,12 +185,20 @@ h1{
     margin-left: 50px;
    }
 
-   .fa-medium {
+   .fa-file-o {
     margin-left: auto;
      margin-right: auto;
     margin-top: 15px;
     color:red;
     margin-left: 45px;
+   }
+
+    .fa-file-text-o {
+    margin-left: auto;
+     margin-right: auto;
+    margin-top: 15px;
+    color:red;
+    margin-left: 30px;
    }
 
     .buttonholder {
@@ -210,7 +226,7 @@ h1{
         padding-right: 55px;
     }
 
-    .sidebar-wrapper{
+/*    .sidebar-wrapper{
       left: 0px;
       top: 0px;
       right: 552px;
@@ -220,7 +236,7 @@ h1{
       /*background-color: #fafafa;*/
 
 
-    }
+    
 
 
     .main {

@@ -67,4 +67,5 @@ font-size: 1.6em;
     .solisicons {
     }
 
+
 </style>
