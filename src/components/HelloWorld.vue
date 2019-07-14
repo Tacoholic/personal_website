@@ -28,7 +28,7 @@
 
 
         <div class="buttonholder">
-                <a class="btn btn-primary btn-lg" href="mailto:@solischristian@gmail.com" role="button">Say hello!</a>
+                <a class="btn btn-primary btn-lg" href="mailto:email@christiansolis.me" role="button">Say hello!</a>
         </div>
         </div>
        <!--  <div>
