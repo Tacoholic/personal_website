@@ -14,7 +14,7 @@
         <div class="solis">
             <p>Former producer at <a href="https://vimeo.com/solisc" class="link">ESPN.</a></p>
             <p> <a href="https://www.https://anyonecanlearntocode.com/" class="link">Actualize </a>Coding Bootcamp graduate.</p>
-            <p>Follow <a href="https://medium.com/@christiansolis_53189" class="link">me</a> on my new journey in the tech world</p>
+            <p>Follow <a href="https://medium.com/@christiansolis_53189" class="link">me</a> on my new journey in the tech world.</p>
            
         </div>
         <div class="icons">
