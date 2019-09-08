@@ -21,7 +21,7 @@
             <span><a href="https://www.linkedin.com/in/christian-solis1/"><i class="fa fa-linkedin" target="_blank" style="font-size:30px;"></i></a></span>
             <span><a href="https://github.com/Tacoholic"><i class="fa fa-github" style="font-size:30px;"></i></a></span>
             <span><a href="https://docs.google.com/document/d/1ca4Qb70X2UvE_oulJhprUuvvdU9u4-eu9IMKx-GC5B4//export?format=pdf"><i class="fa fa-file-o" target="_blank" style="font-size:29px;"></i></a></span>
-            <span><a href="/CurrentProjects"><i class="fa fa-laptop" style="font-size:30px;"></i></a></span>
+           <!--  <span><a href="/CurrentProjects"><i class="fa fa-laptop" style="font-size:30px;"></i></a></span> -->
 
             
         </div>
