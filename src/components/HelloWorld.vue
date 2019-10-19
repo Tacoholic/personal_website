@@ -2,9 +2,7 @@
   <div class="sidebar-wrapper">
     <!-- <aside class="aside aside-1"> -->
         <div class="about clearfix">
-          <h1>CHICAGOAN.
-          <br>
-          QA ENGINEER.
+          <h1>CHICAGOAN,
           <br>
           SPORTS AFICIONADO
           <br>
