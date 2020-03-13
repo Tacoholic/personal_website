@@ -1,4 +1,7 @@
 # personal_website
+My personal website I built and deployed through Heroku. 
+Tech stack: Vue.js, HTML, CSS and Google Fonts API.
+
 
 ## Project setup
 ```
